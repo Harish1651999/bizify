@@ -4,8 +4,58 @@ height: 6736px;
 font-family: 'Poppins', 'Arial', sans-serif;
 }
 
-primary-btn{}
-secondary-btn{}
+.primary-btn{
+    background-color: #247cf0;
+    display: inline-block;
+    padding: 8px 15px;
+    color: white;
+    border-radius: 4px;
+    text-decoration: none;
+}
+.secondary-btn{
+    color: black;
+    text-decoration: none;
+    line-height: 50px;
+}
+
+.secondary-btn i{
+    font-size: 25px;
+    color: #247cf0;
+    position: relative;
+    top: 2px;
+    padding: 0 4px;
+}
+
+.section-title{
+    text-align: center;
+    padding-top: 46px;
+}
+.section-title h4{}
+
+.section-title h4 span{
+    background-color: #e7f1fd;
+    border-radius: 15px;
+    padding: 7px 12px;
+    display: inline-block;
+    color: #247cf0;
+    font-size: 10px;
+    font-weight: 800;
+}
+.section-title h2{
+    font-size: 28px;
+    margin-bottom: 10px;
+    color: #444444;
+    padding-top: 13px;
+}
+
+.section-title h2 span{
+    color: #247cf0;
+}
+
+.section-title p{
+    line-height: 22px;
+}
+
 
 .container{
     width: 732px;
@@ -42,28 +92,46 @@ secondary-btn{}
 
 #banner{
     height: 447px;
-    /*background-image: url('../images/hero-bg.jpg');*/
+    background-image: url('../images/hero-bg.jpg');
     background-size: cover;
+    position: relative;
+}
+
+#banner .white-overlay{
+    background-color: rgba(255, 255, 255, 0.6);
+    position: absolute;
+    bottom: 0;
+    top: 0;
+    left: 0;
+    right: 0;
 }
 
 #banner .f-container{
     display: flex;
+    position: relative;
 }
 
 #banner h1{
     padding-top: 167px;
     font-size: 35px;
+    padding-bottom: 10px;
 }
 
-#banner span h1{
-    color: ;
+#banner h1 span{
+    color:  #247cf0;
 }
 
-#banner p{}
+#banner p{
+    font-size: 20px;
+    padding-bottom: 11px;
+}
 #banner .cta-wrapper{}
 #banner .cta-wrapper a{}
-#banner primary-btn{}
-#banner secondary-btn{}
+
+#banner .cta-wrapper a.primary-btn{
+    margin: 10px;
+}
+#banner .cta-wrapper a.secondary-btn{}
 
 
 #highlights{
@@ -86,7 +154,7 @@ border-radius: 8px;
 
 #about{
     height: 609px;
-     background-color: rgba(143, 188, 143, 0.418);
+    background-color: #f6f9fe;
 }
 
 #about .section-content .f-container{
@@ -145,7 +213,7 @@ border-radius: 4px;
 
 #service{
     height: 746px;
-    background-color: rgba(137, 43, 226, 0.349);
+    background-color: #f6f9fe;
 }
 
 #service .section-title{
@@ -172,12 +240,12 @@ border-radius: 4px;
 
 #portfolio{
     height: 1074px;
-    background-color: rgba(255, 20, 145, 0.377);
+    background-color: #f6f9fe;
 }
 
 #team{
  height: 503px;
- background-color: rgba(139, 69, 19, 0.322);
+ background-color: #f6f9fe;
 }
 
 #team .section-content .f-container{
@@ -197,7 +265,7 @@ border-radius: 4px;
 
 #pricing{
  height: 541px;
- background-color: rgba(105, 90, 205, 0.397);
+ background-color: #f6f9fe;
 }
 
 #pricing .section-content .f-container{
@@ -217,12 +285,12 @@ border-radius: 4px;
 
 #faq{
   height: 492px;
-  background-color: rgba(255, 99, 71, 0.397);
+  background-color: #f6f9fe;
 }
 
 #contact{
   height: 661px;
-  background-color: rgba(100, 148, 237, 0.425);
+  background-color: #f6f9fe;
 }
 
 #contact .section-title{
