@@ -64,7 +64,8 @@ font-family: 'Poppins', 'Arial', sans-serif;
 
 #quick-links{
     height: 28px;
-    background-color: #106eea81;
+    background-color: #007bff;
+    color: white;
 }
 
 #quick-links .f-container{
@@ -73,12 +74,28 @@ font-family: 'Poppins', 'Arial', sans-serif;
 }
 
 #quick-links .f-item{
+    font-size: 12px;
+    padding-top: 9px;
+}
 
+#quick-links .f-item a{
+    color: white;
+    text-decoration: none;
+}
+
+#quick-links i{
+    margin-right: 9px;
+    cursor: pointer;
+}
+
+#quick-links .f-item.facebook i{
+    color: rgba(255, 255, 255, 0.6);
 }
 
 #header{
     height: 70px;
-    background-color: rgba(0, 255, 255, 0.507);
+    background-color: #ffff;
+    color: #222222;
 }
 
 #header .f-container{
@@ -86,8 +103,31 @@ font-family: 'Poppins', 'Arial', sans-serif;
     justify-content: space-between;
 }
 
-#header.f-item{
+#header .f-item{
+    padding-top: 25px;
+}
 
+#header .f-item.bizify{
+    font-size: 25px;
+}
+
+#header .f-item.bizify span{
+    color: #247cf0;
+}
+
+#header .f-item.size,p{
+    color: #353535;
+    font-size: 13px;
+    font-weight: 500;
+    padding-right: 10px;
+    display: flex;
+    padding-top: 14px;
+    cursor: pointer;
+}
+
+#header .f-item.size .home{
+    padding-left: 10px;
+    display: flex;
 }
 
 #banner{
@@ -142,6 +182,7 @@ font-family: 'Poppins', 'Arial', sans-serif;
 #highlights .f-container{
     display: flex;
     justify-content: space-around;
+    padding-top: 50px;
 }
 
 #highlights .f-item{
@@ -150,6 +191,21 @@ flex-basis: 17%;
 padding: 15px;
 box-shadow: 0px 0px 15px cadetblue;
 border-radius: 8px;
+}
+
+#highlights .f-item i{
+    font-size: 35px;
+    color: #007bff;
+}
+
+#highlights .f-item h4{
+    font-size: 15px;
+    font-weight: 700;
+    padding-top: 15px;
+}
+
+#highlights .f-item p{
+    font-size: 15px;
 }
 
 #about{
