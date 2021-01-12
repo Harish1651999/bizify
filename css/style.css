@@ -58,7 +58,7 @@ font-family: 'Poppins', 'Arial', sans-serif;
 
 
 .container{
-    width: 732px;
+    width: 832px;
     margin: 0 auto;
 }
 
@@ -107,27 +107,22 @@ font-family: 'Poppins', 'Arial', sans-serif;
     padding-top: 25px;
 }
 
-#header .f-item.bizify{
+#header .f-item{
     font-size: 25px;
 }
 
-#header .f-item.bizify span{
+#header .f-item span{
     color: #247cf0;
 }
 
-#header .f-item.size,p{
+#header .f-item a{
     color: #353535;
     font-size: 13px;
     font-weight: 500;
     padding-right: 10px;
-    display: flex;
     padding-top: 14px;
+    text-decoration: none;
     cursor: pointer;
-}
-
-#header .f-item.size .home{
-    padding-left: 10px;
-    display: flex;
 }
 
 #banner{
@@ -176,19 +171,19 @@ font-family: 'Poppins', 'Arial', sans-serif;
 
 #highlights{
     height: 275px;
-    background-color:rgba(238, 130, 238, 0.329);
+    background-color:#fff;
 }
 
 #highlights .f-container{
     display: flex;
     justify-content: space-around;
-    padding-top: 50px;
+    padding-top: 34px;
 }
 
 #highlights .f-item{
 background-color: white;
 flex-basis: 17%;
-padding: 15px;
+padding: 23px;
 box-shadow: 0px 0px 15px cadetblue;
 border-radius: 8px;
 }
@@ -206,25 +201,43 @@ border-radius: 8px;
 
 #highlights .f-item p{
     font-size: 15px;
+    padding-top: 10px;
+    line-height: 1.5;
 }
 
 #about{
     height: 609px;
-    background-color: #f6f9fe;
+    background-color: #4782e97e;
 }
 
 #about .section-content .f-container{
     display: flex;
+    padding-top: 52px;
 }
 
 #about .section-content .f-item{
-    background-color: rgba(64, 224, 208, 0.616);
-    padding: 15px;
+    padding: 30px;
 }
 
 #about .section-title{
     height: 80px;
-} 
+}
+
+#about .section-content .f-item.size-a{
+    flex-basis: 50%;
+}
+
+#about .section-content .f-item.size-b{
+   flex-basis: 50%;
+}
+
+#about .section-content h4{
+    font-size: 20px;
+}
+
+#about .section-content .font-a{
+    font-style: italic;
+}
 
 #skills{
     height: 200px;
@@ -242,19 +255,32 @@ border-radius: 8px;
 
 #statistics{
     height: 198px;
-    background-color: rgba(137, 43, 226, 0.342);
+    background-color: #fff;    
 }
 
 #statistics .f-container{
 display: flex;
+padding-top: 50px;
 justify-content: space-around;
 }
 
 #statistics .f-item{
-background-color: rgba(95, 158, 160, 0.5);
+background-color:#F1F6FE;
+color: #062B5B;
+text-align: center;
 flex-basis: 13%;
 padding: 25px;
 border-radius: 4px;
+}
+
+#statistics .f-item h4{
+    font-size: 30px;
+    font-weight: 500;
+}
+
+#statistics .f-item p{
+    font-size: 11px;
+    padding-top: 10px;
 }
 
 #clients{
@@ -269,11 +295,11 @@ border-radius: 4px;
 
 #service{
     height: 746px;
-    background-color: #f6f9fe;
+    background-color: #fff;
 }
 
 #service .section-title{
-    height: 200px;
+    height: 125px;
 }
 
 #service .section-content .f-container{
@@ -284,9 +310,29 @@ border-radius: 4px;
 
 #service .section-content .f-item{
     background-color: white;
-    flex-basis: 23%;
-    padding: 50px 15px;
+    border: 1px solid #007bff;
+    flex-basis: 24%;
+    text-align: center;
+    padding: 70px 20px;
     margin: 10px;
+}
+
+#service .section-content .f-item i{
+    background-color: #F1F6FE;
+    padding: 10px;
+    border-radius: 4px;
+    font-size: 20px;
+    color: #007bff;
+}
+
+#service .section-content .f-item h4{
+    padding-top: 30px;
+    font-size: 18px;
+}
+
+#service .section-content .f-item p{
+    padding-top: 15px;
+    font-size: 14px;
 }
 
 #testimonials{
@@ -296,7 +342,7 @@ border-radius: 4px;
 
 #portfolio{
     height: 1074px;
-    background-color: #f6f9fe;
+    background-color: #fff;
 }
 
 #team{
@@ -306,12 +352,14 @@ border-radius: 4px;
 
 #team .section-content .f-container{
     display: flex;
+    padding-top: 44px;
     justify-content: space-around;
 }
 
 #team .section-content .f-item{
     background-color: white;
-    padding: 100px 50px;
+    flex-basis: 10%; 
+    padding: 120px 50px;
     margin: 10px;
 }
 
@@ -321,16 +369,18 @@ border-radius: 4px;
 
 #pricing{
  height: 541px;
- background-color: #f6f9fe;
+ /* background-color: #fff; */
 }
 
 #pricing .section-content .f-container{
     display: flex;
+    padding-top: 41px;
     justify-content: space-around;
 }
 
 #pricing .section-content .f-item{
     background-color: white;
+    border: 1px solid gray;
     padding: 45px 45px;
     margin: 10px;
 }
@@ -344,9 +394,17 @@ border-radius: 4px;
   background-color: #f6f9fe;
 }
 
+#faq .section-content{
+    padding-top: 35px;
+}
+
+#faq .section-content p{
+    padding-bottom: 20px;
+}
+
 #contact{
   height: 661px;
-  background-color: #f6f9fe;
+  background-color: #fff;
 }
 
 #contact .section-title{
@@ -390,6 +448,24 @@ border-radius: 4px;
 }
 
 #legals{
- height: 85px;
- background-color: rgba(220, 20, 60, 0.281);   
+    height: 56px;
+    background-color: #f6f9fe;   
+}
+
+#legals .f-container{
+    display: flex;
+    padding-top: 21px;
+    justify-content: space-between;
+}
+
+#legals .f-item{
+    font-size: 12px;
+}
+
+#legals .f-item span{
+    color: #007bff;
+}
+
+#legals .f-item p{
+    font-size: 10px;
 }
