@@ -285,12 +285,18 @@ border-radius: 4px;
 
 #clients{
     height: 75px;
-    background-color: rgba(222, 184, 135, 0.315);
+    background-color: #fff;
 }
 
 #clients .f-container{
     display: flex;
     justify-content: space-around;
+}
+
+#clients .f-item img{
+    max-width: 35%;
+    padding-left: 45px;
+    padding-top: 24px;
 }
 
 #service{
@@ -408,7 +414,7 @@ border-radius: 4px;
 }
 
 #contact .section-title{
-    height: 173px;
+    height: 156px;
 }
 
 #contact .f-container{
@@ -418,19 +424,90 @@ border-radius: 4px;
 
 #contact .f-item{
     text-align: center;
+    background-color: #fff;
+    box-shadow: 0 0 10px cadetblue;
+    margin: 8px;
+}
+
+#contact .f-container i{
+    color: #007bff;
+    font-size: 20px;
+    background-color: #fff;
+    border: 1px dotted #007bff;
+    padding: 6px;
+    border-radius: 25px;
 }
 
 #contact .f-item.size-a{
-    flex-basis: 50%;
+    flex-basis: 40%;
 }
 
-#contact .f-item.f-item.size-z{
-    flex-basis: 25%;
+#contact .f-item.size-a h4{
+    padding-top: 18px;
+}
+
+#contact .f-item.size-a p{
+    padding-top: 10px;
+}
+
+#contact .f-item.size-a .form{
+    padding-top: 10px;
+}
+
+#contact .f-item.size-z{
+    flex-basis: 17%;
+    padding: 20px;
+}
+
+#contact .f-item.size-z h4{
+    padding-top: 18px;
+}
+
+#contact .f-item.size-z p{
+    padding-top: 10px;
+    font-size: 11px;
 }
 
 #newsletter{
     height: 179px;
-    background-color: rgba(255, 192, 203, 0.425);
+    background-color:#F1F6FE;
+}
+
+#newsletter .section-title{
+    padding-top: 32px;
+}
+
+#newsletter .section-title h4{
+    font-size: 20px;
+}
+#newsletter .section-title p{
+    font-size: 15px;
+    padding-top: 12px;
+}
+
+#newsletter .section-content{
+    padding-top: 25px;
+    text-align: center;    
+}
+
+#newsletter 
+input[type = "text"]
+{
+padding: 8px 75px;
+border: none;
+border-radius: 3px 0 0 3px; 
+}
+
+#newsletter 
+input[type = "submit"]
+{
+padding: 9px 13px;
+color: #fff;
+background-color: #106EEA;
+border: none;
+font-size: 13px;
+border-radius: 0 3px 3px 0;
+cursor: pointer;
 }
 
 #footer{
