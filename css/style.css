@@ -363,14 +363,33 @@ border-radius: 4px;
 }
 
 #team .section-content .f-item{
-    background-color: white;
-    flex-basis: 10%; 
-    padding: 120px 50px;
+    flex-basis: 20%; 
     margin: 10px;
+    background-color: #fff;
+    width: 100%;
 }
 
 #team .section-title{
     height: 80px;
+}
+
+#team .f-item img{
+    max-width: 100%;
+    background-color: #fff;
+}
+
+#team .section-content h4{
+    font-size: 15px;
+    padding-top: 20px;
+    padding-left: 10px;
+}
+
+#team .f-item p{
+    color: #aaaaaa;
+    font-size: 11px;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 20px;
 }
 
 #pricing{
@@ -414,7 +433,7 @@ border-radius: 4px;
 }
 
 #contact .section-title{
-    height: 156px;
+    height: 120px;
 }
 
 #contact .f-container{
@@ -439,7 +458,8 @@ border-radius: 4px;
 }
 
 #contact .f-item.size-a{
-    flex-basis: 40%;
+    flex-basis: 41%;
+    padding: 20px;
 }
 
 #contact .f-item.size-a h4{
@@ -448,14 +468,16 @@ border-radius: 4px;
 
 #contact .f-item.size-a p{
     padding-top: 10px;
+    font-size: 11px;
 }
 
 #contact .f-item.size-a .form{
     padding-top: 10px;
+    /* margin: 5px; */
 }
 
 #contact .f-item.size-z{
-    flex-basis: 17%;
+    flex-basis: 19%;
     padding: 20px;
 }
 
@@ -466,6 +488,56 @@ border-radius: 4px;
 #contact .f-item.size-z p{
     padding-top: 10px;
     font-size: 11px;
+}
+
+#contact .f-item.size-a iframe{
+    max-width: 117%;
+    height: 275px;
+}
+
+#contact .f-item.size-a .name-email{
+    display: flex;
+}
+
+#contact .f-item.size-a .name-form {
+    
+} 
+
+#contact .f-item.size-a .name-form input{
+    padding: 8px;
+}
+
+#contact .f-item.size-a .email-form input{
+    padding: 8px;
+}
+
+#contact .f-item.size-a .sub-form{
+    padding-top: 17px;
+}
+
+#contact .f-item.size-a .sub-form input{
+    padding: 8px;
+    padding-right: 131px;
+} 
+
+#contact 
+input[type = "submit"]{
+    background-color: #106EEA;
+    color: #fff;
+    border-radius: 4px;
+    border: none;
+    padding: 10px 16px;
+    cursor: pointer;
+}
+
+#contact .f-item.size-a .text-form{
+    padding-top: 5px;
+}
+
+#contact .f-item.size-a textarea{
+    margin: 13px;
+    height: 82px;
+    width: 302px;
 }
 
 #newsletter{
@@ -526,7 +598,7 @@ cursor: pointer;
 
 #legals{
     height: 56px;
-    background-color: #f6f9fe;   
+    background-color: #F1F6FE;   
 }
 
 #legals .f-container{
